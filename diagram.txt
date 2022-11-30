@@ -1,0 +1,50 @@
+erDiagram
+    CAR_DEALERSHIP {
+        int dealership_id PK
+        string dealership_name
+        string location
+        string holder_name
+        string cars FK
+    }
+    HOLDER ||--|{ CAR_DEALERSHIP: owns
+    HOLDER {
+        int holder_id PK
+        string first_name
+	string last_name
+    }
+    CAR_DEALERSHIP ||--|{ CARS: has
+    CARS {
+        int car_id FK
+        int release_year
+        string car_brand
+        string car_model
+        string car_type
+    }
+    CAR_DEALERSHIP ||--|{ LOCATION: is_located
+    LOCATION {
+        int location_int
+        string city
+        string state
+        string county
+    }
+    CAR_DEALERSHIP ||--|{ CUSTOMERS: contains
+    CUSTOMERS {
+        int customer_id PK
+        string first_name
+        string last_name
+    }
+    CUSTOMERS ||--|{ CUSTOMER_INFO: contains
+    CUSTOMER_INFO {
+        int customer_id PK
+        string first_name
+        string last_name
+        string birth_date
+        string age
+    }
+    CARS ||--|{ CAR_INFO: contains
+    CAR_INFO {
+        int car_info_id PK
+        int car_id FK
+        int serial_number
+        string engine_type
+    }

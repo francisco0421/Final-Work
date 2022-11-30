@@ -1,0 +1,16 @@
+CAR_ID;RELEASE_YEAR;CAR_BRAND;CAR_MODEL;CAR_TYPE
+1;1987;Ford;Mustang;Muscle
+2;1964;Toyota;Corolla;Sedan
+3;1995;Subaru;Impreza;Hatchback
+4;1982;Lamborghini;Gallardo;Super
+5;1944;Ferrari;FXX;Exotic
+6;1930;Dacia;Sandero;Sedan
+7;1955;Chevrolet;Spark;Hatchback
+8;1989;Renault;Mégane;Hatchback
+9;1997;Peugeot;206;Hatchback
+10;2013;Saab;900;Hatchback
+11;2000;Nissan;Versa;Sedan
+12;2010;Suzuki;Vitara;SUV
+13;1975;Honda;Civic;Sedan
+14;2002;Volkswagen;Polo;Hatchback
+15;1999;Porsche;911;Super
